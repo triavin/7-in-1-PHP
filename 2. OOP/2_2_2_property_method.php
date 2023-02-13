@@ -1,10 +1,9 @@
 <?php
 /* 
-
-properti merpakan sebuah data atau variabel pada sebuah class
-
-method merupakan tindakan yang dapat dilakukan dalam sebuah class yang ada
-
+    ##############################################################################
+    # properti merpakan sebuah data atau variabel pada sebuah class              #
+    # method merupakan tindakan yang dapat dilakukan dalam sebuah class yang ada #
+    ##############################################################################
 */
 class handphone{
     var $merk;
@@ -20,8 +19,8 @@ $handphone_faqih = new handphone();
 $handphone_daffa = new handphone();
 
 /*
-
-variabel merk, tipe, dan jml_pulsa adalah properti
-sedangkan mengirim_pesan() merupakan method
-
+    ######################################################
+    # variabel merk, tipe, dan jml_pulsa adalah properti #
+    # sedangkan mengirim_pesan() merupakan method        #
+    ######################################################
 */
