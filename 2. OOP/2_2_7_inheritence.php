@@ -1,9 +1,9 @@
 <?php
 
 /*
-    ##################################################
-    # membuat class smartphone sebagai class turunan #
-    ##################################################
+    ###########################
+    # membuat class handphone #
+    ###########################
 */
 
 class handphone{
@@ -16,9 +16,9 @@ class handphone{
 }
 
 /*
-    ##################################################
-    # membuat class smartphone sebagai class turunan #
-    ##################################################
+    ############################################################
+    # membuat class smartphone sebagai class turunan handphone #
+    ############################################################
 */
 
 class smartphone extends handphone {

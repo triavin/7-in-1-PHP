@@ -1,4 +1,9 @@
 <?php
+/*
+    ###########################
+    # membuat class handphone #
+    ###########################
+*/
 class handphone{
     var $jml_pulsa;
 
@@ -9,11 +14,21 @@ class handphone{
     }
 }
 
-// inisialisasi object baru
+/*
+    ##########################################################
+    # membuat object baru dengan menggunakan class handphone #
+    ##########################################################
+*/
+
 $hp_latif = new handphone();
 $hp_daffa = new handphone();
 
-// memberi nilai pada variable yang dimiliki object
+/*
+    ####################################################
+    # memberi nilai pada variable yang dimiliki object #
+    ####################################################
+*/
+ 
 $hp_latif->jml_pulsa = 15000;
 $hp_daffa->jml_pulsa = 25000;
 
@@ -22,6 +37,12 @@ echo "<br>";
 
 echo "Jumlah Pulsa Daffa Saat Ini : " .$hp_daffa->jml_pulsa;
 echo "<br>";
+
+/*
+    #################################################################
+    # menjalankan function yang berada didalam class melalui object #
+    #################################################################
+*/
 
 echo "Latif ";
 $hp_latif->mengirim_pesan();
@@ -33,9 +54,9 @@ echo "Jumlah Pulsa Daffa Saat Ini : " .$hp_daffa->jml_pulsa;
 echo "<br>";
 
 /*
-
-variable $this dalam class merujuk pada object yang menggunakan variable tersebut
-bukan pada seluruh object yang ada
-
+    #####################################################################################
+    # variable $this dalam class merujuk pada object yang menggunakan variable tersebut #
+    # bukan pada seluruh object yang ada                                                #
+    #####################################################################################
 */
 ?>

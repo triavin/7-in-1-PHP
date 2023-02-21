@@ -1,4 +1,9 @@
 <?php
+/*
+    ###########################
+    # membuat class handphone #
+    ###########################
+*/
 
 class handphone {
     var $jml_pulsa;
